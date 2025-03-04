@@ -7,7 +7,7 @@ from settings import *
 from helper import *
 if datetime.now().strftime('%Y%m%d %H:%M:%S') > VALID_DATE:
     print('유효기간이 만료되었습니다.')
-    input('010-9939-5683 / 크몽 두들코딩으로 연락 부탁드립니다.')
+    input(' / 01028564885으로 연락 부탁드립니다.')
 logging.basicConfig(filename=f'{DEBUG_DIR}keyword-upload-app.log', level=logging.ERROR)
 try:
     helper = Helper()
